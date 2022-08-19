@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     font-family: Century Gothic;
@@ -28,13 +28,14 @@ ul li a {
     color: #fff;
     padding: 5px 20px;
     border: 1px solid transparent;
+    border-radius: 6px;
     transition: 0.6s ease;
-    
+
     font-size: 20px;
     font-style: bold;
 }
 
-ul li.active a{
+ul li.active a {
     background-color: #fff;
     color: black;
 }
@@ -65,17 +66,17 @@ ul li a:hover {
     transform: translate(-50%, -50%);
 }
 
-.title h1{
+.title h1 {
     color: white;
     font-size: 70px;
-    font-family: Century Gothic;
+    font-family: GothicBold;
     text-align: center;
     letter-spacing: 7px;
 }
 
-.button{
+.button {
     position: absolute;
-    top:62%;
+    top: 62%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -86,9 +87,16 @@ ul li a:hover {
     text-decoration: none;
     color: white;
     transition: 0.6s ease;
+
+    border-radius: 6px;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: #fff;
     color: black;
+}
+
+@font-face {
+    font-family: 'GothicBold';
+    src: url('../Fonts/GothicA1-ExtraBold.ttf');
 }
