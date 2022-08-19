@@ -1,67 +1,93 @@
-body {
-    background-color: beige;
-}
-
-h1 {
-    padding: 8px;
-    padding-left: 20px;
-    font-size: 40px;
+*{
+    margin: 0px;
+    padding: 0px;
     font-family: Century Gothic;
-    text-align: center;
-    margin: auto;
-    margin-top: 20px;
-
-    /* border */
-    border: 2px solid;
-    width: 30%;
-    border-color: #800000;
-    border-radius: 10px;
-
-    box-shadow: 5px 5px 9px #800000;
-
-    position: fixed;
-    position: sticky;
-    top: 20px;
 }
 
-p.info {
-    width: 45%;
-    font-family: "MV Boli";
-    font-size: 15px;
-    text-align: justify;
-    padding: 10px;
-    /* padding-left: 20px;
-    padding-right: 20px; */
-    transition: 0.25s ease;
-    filter: blur(5px);
-    margin-top: 50px;
-
-    border-style: solid;
-    border-width: 3px 5px 3px 5px;
-    border-color: #800000;
-    border-radius: 10px;
+header {
+    background-image: url(../Images/bg.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
-p.info:hover {
+ul {
+    float: right;
+    list-style: none;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+    
+    font-size: 20px;
     font-style: bold;
-    /* color: black; */
-    font-size: 16px;
-    /* background-color: lightblue; */
-    filter: none;
 }
 
-#p1 {
+ul li.active a{
+    background-color: #fff;
+    color: black;
+}
+
+ul li a:hover {
+    background-color: #fff;
+    color: black;
+}
+
+.logo img {
     float: left;
+    width: 40px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
-#p2 {
-    float: right;
+/* ito ay para lang mag gitna yung header */
+/* .main {
+    max-width: 1200px;
+    margin: auto;
+} */
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-#p3 {
-    float: left;
+.title h1{
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    letter-spacing: 7px;
 }
 
-#p4 {
-    float: right;
+.button{
+    position: absolute;
+    top:62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    border: 1px solid white;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: white;
+    transition: 0.6s ease;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: black;
 }
