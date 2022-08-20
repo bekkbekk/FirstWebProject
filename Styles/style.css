@@ -1,7 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-family: Century Gothic;
+    font-family: GothicRegular;
 }
 
 header {
@@ -49,8 +49,12 @@ ul li a:hover {
     float: left;
     width: 40px;
     height: auto;
-    margin-top: 20px;
-    margin-left: 20px;
+}
+
+img.menu{
+    float: right;
+    margin-right: 10px;
+    margin-top: 13px;
 }
 
 /* ito ay para lang mag gitna yung header */
@@ -99,4 +103,9 @@ ul li a:hover {
 @font-face {
     font-family: 'GothicBold';
     src: url('../Fonts/GothicA1-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: 'GothicRegular';
+    src: url('../Fonts/GothicA1-Regular.ttf');
 }
